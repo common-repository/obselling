@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obselling\n"
+"POT-Creation-Date: 2024-08-09 16:38+0200\n"
+"PO-Revision-Date: 2024-08-09 16:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: obselling.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/admin.php:39
+msgid "Get PRO version"
+msgstr "Obtenir la version PRO"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: admin/admin.php:48
+msgid "Obselling"
+msgstr "Obselling"
+
+#: admin/admin.php:66
+msgid "General"
+msgstr "Général"
+
+#: admin/admin.php:70
+msgid "Products"
+msgstr "Produits"
+
+#: admin/admin.php:87 admin/admin.php:176
+msgid "Obsolete"
+msgid_plural "Obsoletes"
+msgstr[0] "Obsolète"
+msgstr[1] "Obsolètes"
+
+#: admin/admin.php:185 admin/views/html-obsolete-products-general.php:12
+msgid "Obsolete product?"
+msgstr "Produit obsolète ?"
+
+#: admin/includes/validate.php:22
+#, php-format
+msgid ""
+"The product wasn't made obsolete because you reached the limit of %s "
+"obsoletes products allowed in the Free version. Get PRO Version !"
+msgstr ""
+"Le produit n’a pas été rendu obsolète car vous avez atteint la limite de %s "
+"produits obsolètes autorisés dans la gratuite. Obtenez la version PRO !"
+
+#: admin/includes/validate.php:34
+#, php-format
+msgid ""
+"The recommended products weren't updated because you reached the limit of %s "
+"product allowed in the Free version. Get PRO Version !"
+msgstr ""
+"Les produits recommandés n’ont pas été mis à jour car vous avez atteint la "
+"limite de %s produit autorisé dans la version gratuite. Obtenez la version "
+"PRO !"
+
+#: admin/views/html-get-pro-block.php:8
+msgid "Get PRO version for full options"
+msgstr "Obtenez la version PRO pour activer toutes les options"
+
+#: admin/views/html-obsolete-products-general.php:13
+msgid "Make this product obsolete"
+msgstr "Rendre ce produit obsolète"
+
+#: admin/views/html-obsolete-products-products-search.php:6
+msgid "Search product"
+msgstr "Rechercher un produit"
+
+#: admin/views/html-obsolete-products-products-search.php:15
+msgid "Products you recommend to replace the current one"
+msgstr "Produits recommandés au lieu du produit actuel"
+
+#: admin/views/html-obsolete-products-products.php:9
+msgid "Recommended"
+msgstr "Recommandé(s)"
+
+#: includes/functions.php:36
+#: includes/views/html-product-page-product-summary-block.php:7
+msgid "Obsolete product"
+msgstr "Produit obsolète"
+
+#: includes/views/html-product-page-recommended-products-block.php:18
+msgid "This product is no longer available. We recommend this selection:"
+msgstr ""
+"Ce produit n’est plus disponible. Nous vous recommandons cette sélection :"
+
+#: obselling.php:57
+#, php-format
+msgid ""
+"WooCommerce is not installed or not activated. You can download %s here."
+msgstr ""
+"WooCommerce n’est pas installé ou n’est pas activé. Vous pouvez la "
+"télécharger %s ici."
+
+#: obselling.php:69
+msgid "There is a problem with Obselling:"
+msgstr "Il y a un problème avec Obselling :"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://obselling.com/"
+msgstr "https://obselling.com/"
+
+#. Description of the plugin/theme
+msgid "Sell other products of an obsolete product or out of stock."
+msgstr "Vendre d’autres produits d’un produit obsolète ou en rupture de stock."
+
+#~ msgid "1 product FREE version or 4 products PRO version"
+#~ msgstr "1 produit en version GRATUITE ou 4 produits en version PRO"
+
+#~ msgid "4 products maximum"
+#~ msgstr "4 produits maximum"
+
+#~ msgid "WP Trigone"
+#~ msgstr "WP Trigone"
+
+#~ msgid "https://wptrigone.fr/"
+#~ msgstr "https://wptrigone.fr/"
+
+#~ msgid "Korteex"
+#~ msgstr "Korteex"
+
+#~ msgid "Obsolete products"
+#~ msgstr "Produit obsolète"
+
+#~ msgid "https://obselling.fr/"
+#~ msgstr "https://obselling.fr/"
+
+#~ msgid "To set or unset this product as an obsolete product:"
+#~ msgstr ""
+#~ "Pour définir ou désactiver ce produit en tant que produit obsolète :"
+
+#~ msgid "Go to Inventory tab"
+#~ msgstr "Aller à l’onglet Inventaire"
+
+#~ msgid "Obsolete (read only)"
+#~ msgstr "Obsolète (lecture seule)"
+
+#~ msgid ""
+#~ "This checkbox is on read-only mode. To change the status of the product, "
+#~ "you have to do it through the Inventory tab."
+#~ msgstr ""
+#~ "Cette case à cocher est en mode lecture seule. Pour modifier l’état du "
+#~ "produit, vous devez le faire via l’onglet Inventaire."
+
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+#~ msgid "Save"
+#~ msgstr "Sauvegarder"

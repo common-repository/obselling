@@ -1,0 +1,24 @@
+.woocommerce .product .obsolete_product_button {
+	background-color: #c14141;
+	color: white;
+}
+
+.woocommerce .product .obselling-product-summary, .woocommerce .product .out-of-stock {
+	display: inline-block;
+	padding: 1rem 2rem;
+	margin-bottom: 1rem;
+	border-radius: 4px;
+	background-color: #c14141;
+	color: white;
+	font-size: medium;
+	text-align: center;
+}
+
+.woocommerce .obselling-product-page .obselling-product-alert {
+	text-align: center;
+	background-color: #c14141;
+	color: white;
+	font-size: 1em;
+	padding: 20px;
+	border-radius: 4px;
+}

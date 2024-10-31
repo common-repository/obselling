@@ -1,0 +1,232 @@
+#obselling-recommended-products .hndle {
+	padding: 10px;
+}
+
+#obselling-recommended-products .hndle span {
+	display: block;
+	line-height: 24px;
+}
+
+#obselling-recommended-products .hndle .type_box {
+	display: inline;
+	line-height: inherit;
+	vertical-align: baseline;
+}
+
+#obselling-recommended-products .hndle select {
+	margin: 0;
+}
+
+#obselling-recommended-products .hndle label {
+	padding-right: 1em;
+	font-size: 12px;
+	vertical-align: baseline;
+}
+
+#obselling-recommended-products .hndle label:first-child {
+	margin-right: 1em;
+	border-right: 1px solid #dfdfdf;
+}
+
+#obselling-recommended-products .hndle input,
+#obselling-recommended-products .hndle select {
+	margin-top: -3px 0 0;
+	vertical-align: middle;
+}
+
+#obselling-recommended-products .hndle select {
+	margin-left: .5em;
+}
+
+#obselling-recommended-products>.handlediv {
+	margin-top: 4px;
+}
+
+#obselling-recommended-products .wrap {
+	margin: 0;
+}
+
+#obselling-recommended-products .panel-wrap {
+	background: #fff;
+}
+
+#obselling-recommended-products .wc-metaboxes-wrapper,
+#obselling-recommended-products .woocommerce_options_panel {
+	float: left;
+	width: 80%;
+}
+
+#obselling-recommended-products .wc-metaboxes-wrapper .wc-radios,
+#obselling-recommended-products .woocommerce_options_panel .wc-radios {
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+#obselling-recommended-products .wc-metaboxes-wrapper .wc-radios li,
+#obselling-recommended-products .woocommerce_options_panel .wc-radios li {
+	display: block;
+	padding: 0 0 10px;
+}
+
+#obselling-recommended-products .wc-metaboxes-wrapper .wc-radios li input,
+#obselling-recommended-products .woocommerce_options_panel .wc-radios li input {
+	width: auto;
+}
+
+#obselling-recommended-products .panel-wrap,
+.woocommerce .panel-wrap {
+	overflow: hidden;
+}
+
+#obselling-recommended-products ul.wc-tabs,
+.woocommerce ul.wc-tabs {
+	margin: 0;
+	width: 20%;
+	float: left;
+	line-height: 1em;
+	padding: 0 0 10px;
+	position: relative;
+	background-color: #fafafa;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+
+#obselling-recommended-products ul.wc-tabs::after,
+.woocommerce ul.wc-tabs::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 9999em;
+	position: absolute;
+	bottom: -9999em;
+	left: 0;
+	background-color: #fafafa;
+	border-right: 1px solid #eee;
+}
+
+#obselling-recommended-products ul.wc-tabs li,
+.woocommerce ul.wc-tabs li {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+}
+
+#obselling-recommended-products ul.wc-tabs li a,
+.woocommerce ul.wc-tabs li a {
+	margin: 0;
+	padding: 10px;
+	display: block;
+	box-shadow: none;
+	text-decoration: none;
+	line-height: 20px!important;
+	border-bottom: 1px solid #eee;
+}
+
+#obselling-recommended-products ul.wc-tabs li a span,
+.woocommerce ul.wc-tabs li a span {
+	margin-left: .618em;
+	margin-right: .618em;
+}
+
+#obselling-recommended-products ul.wc-tabs li a::before,
+.woocommerce ul.wc-tabs li a::before {
+	font-family: Dashicons;
+	speak: never;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	content: "\f107";
+	text-decoration: none;
+}
+
+#obselling-recommended-products ul.wc-tabs li.general_options a::before {
+	content: "\f107";
+}
+
+#obselling-recommended-products ul.wc-tabs li.products_options a::before {
+	content: "\f312";
+}
+
+#obselling-recommended-products ul.wc-tabs li.redirect_options a::before {
+	content: "\f103";
+}
+
+#obselling-recommended-products ul.wc-tabs li.shortcode_options a::before {
+	content: "\f150";
+}
+
+#obselling-recommended-products ul.wc-tabs li.attribute_options a::before,
+.woocommerce ul.wc-tabs li.attribute_options a::before {
+	content: "\f175";
+}
+
+#obselling-recommended-products ul.wc-tabs li.advanced_options a::before,
+.woocommerce ul.wc-tabs li.advanced_options a::before {
+	font-family: Dashicons;
+	content: "\f111";
+}
+
+#obselling-recommended-products ul.wc-tabs li.marketplace-suggestions_options a::before,
+.woocommerce ul.wc-tabs li.marketplace-suggestions_options a::before {
+	content: none;
+}
+
+#obselling-recommended-products ul.wc-tabs li.variations_options a::before,
+.woocommerce ul.wc-tabs li.variations_options a::before {
+	content: "\f509";
+}
+
+#obselling-recommended-products ul.wc-tabs li.usage_restriction_options a::before,
+.woocommerce ul.wc-tabs li.usage_restriction_options a::before {
+	font-family: WooCommerce;
+	content: "\e602";
+}
+
+#obselling-recommended-products ul.wc-tabs li.usage_limit_options a::before,
+.woocommerce ul.wc-tabs li.usage_limit_options a::before {
+	font-family: WooCommerce;
+	content: "\e601";
+}
+
+#obselling-recommended-products ul.wc-tabs li.general_coupon_data a::before,
+.woocommerce ul.wc-tabs li.general_coupon_data a::before {
+	font-family: WooCommerce;
+	content: "\e600";
+}
+
+#obselling-recommended-products ul.wc-tabs li.active a,
+.woocommerce ul.wc-tabs li.active a {
+	color: #555;
+	position: relative;
+	background-color: #eee
+}
+
+.wp-list-table .obsolete {
+    background-color: FireBrick;
+    padding: 2px 4px;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+a.obselling-get-pro-block,
+.woocommerce_options_panel .obselling-get-pro-block {
+	background-color: #449950;
+	color: white;
+	margin: 10px;
+	border-radius: 4px;
+	display: block;
+	width: 50%;
+	font-size: 1.3rem;
+	line-height: 3rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+a.obselling-get-pro-block:hover {
+    background-color: dodgerblue;
+}
